@@ -1,0 +1,38 @@
+#server:
+#  port: 8081
+#
+#spring:
+#  datasource:
+#    name: springboot
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    druid:
+#      #监控统计拦截的filters
+#      filter: stat
+#      #mysql驱动
+#      driver-class-name: com.mysql.jdbc.Driver
+#      #基本属性
+#      url: jdbc:mysql://127.0.0.1:3306/tumo?useUnicide=true&characterEncoding=UTF-8
+#      username: root
+#      password: 123456
+#      #配置初始化大小/最小/最大
+#      initial-size: 1
+#      min-idle: 1
+#      max-active: 20
+#      #获取连接等待超时时间
+#      max-wait: 60000
+#      #间隔多久进行一次检测，检测需要关闭的空闲连接
+#      time-between-eviction-runs-millis: 60000
+#
+#  #配置模板引擎
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    check-template-location: true
+#    suffix: .html
+#    encoding: utf-8
+#    mode: LEGACYHTML
+#    #是否缓存，开发模式下设置为false，避免改了模板还要重启服务器，线上设置为true，可以提高性能。
+#    cache: false
+#  #热部署
+#  devtools:
+#    restart:
+#      enabled: true

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试模板引擎渲染</title>
+    <script data-th-src="@{/site/js/love.js}"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
+</head>
+<body>
+<h2 align="center">爱一人</h2>
+<div align="center" style="height:546px;width: 546px" >
+<table border="1" >
+    <thread>
+        <tr>
+            <th>序号</th>
+            <th>标题</th>
+            <th>摘要</th>
+            <th>创建时间</th>
+        </tr>
+    </thread>
+    <tbody th:each="a : ${data}">
+      <tr>
+          <td th:text="${a.id}"></td>
+          <td th:text="${a.title}"></td>
+          <td th:text="${a.author}"></td>
+          <td th:text="${a.createTime}"></td>
+      </tr>
+    </tbody>
+</table>
+    <div class="aplayer" data-id="60198" data-server="netease" data-type="playlist"></div>
+</div>
+</body>
+</html>
