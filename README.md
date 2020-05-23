@@ -3,17 +3,20 @@
 
 # 技术栈
 
-vue2.0 + Element-UI + vue-router + vuex + axios + ES6 
+前端：vue2.0 + Element-UI + vue-router + vuex + axios + ES6 
+后端：SpringBoot + jpa + SpringData-ElasticSearch
 
 ## 简介
 
-1. Vue + Mint-ui实现首页商城商品展示，商品列表，商品详情，订单提交
-2. vuex + webStorage 实现了购物车功能,axios拦截,配合路由钩子函数实现权限控制、登录、登出功能
+1. Vue + Element-UI实现首页广告房源示，房源列表，房源详情，地图找房
+2. vuex + webStorage 实现了不同权限登录功能,axios拦截,配合路由钩子函数实现权限控制、登录、登出功能
 
 ## 预览
-
-![](./static/首页上.PNG)   ![](./static/用户登录.PNG)   ![](./static/房源列表.PNG)   ![](./static/房源详情.PNG)
- ![](./static/地图找房.PNG)  ![](./static/登录效验.PNG)
+### 用户登录
+![](./static/首页上.PNG)   ![](./static/用户登录.PNG)  ![](./static/登录效验.PNG)  ![](./static/房源列表.PNG) 
+![](./static/房源详情.PNG) ![](./static/地图找房.PNG) 
+### 管理员登录
+![](./static/销售情况展示.PNG)
 
 
 ## 经验
