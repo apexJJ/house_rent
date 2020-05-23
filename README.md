@@ -12,7 +12,8 @@ vue2.0 + Element-UI + vue-router + vuex + axios + ES6
 
 ## 预览
 
-![](./static/car.gif)   ![](./static/login.gif)
+![](./static/首页上.PNG)   ![](./static/用户登录.PNG)   ![](./static/房源列表.PNG)   ![](./static/房源详情.PNG)
+ ![](./static/地图找房.PNG)  ![](./static/登录效验.PNG)
 
 
 ## 经验
